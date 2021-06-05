@@ -1690,6 +1690,10 @@
 }
 
 @media (max-width: 575px) {
+  .u-section-6 .u-sheet-1 {
+    min-height: 1772px;
+  }
+
   .u-section-6 .u-text-1 {
     width: 340px;
   }
@@ -1698,7 +1702,13 @@
     width: 340px;
   }
 
+  .u-section-6 .u-list-1 {
+    margin-bottom: 0;
+    height: auto;
+    min-height: auto;
+  }
+
   .u-section-6 .u-repeater-1 {
-    grid-auto-rows: calc(33.33% - 6.666666666666667px);
+    min-height: 1635px;
   }
 }
