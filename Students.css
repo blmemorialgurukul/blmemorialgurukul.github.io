@@ -31,23 +31,24 @@
 }
 
 .u-section-1 .u-image-3 {
-  min-height: 305px;
+  min-height: 337px;
   background-image: url("images/indoorfun.jpg");
   background-position: 50% 50%;
 }
 
 .u-section-1 .u-container-layout-3 {
-  padding: 20px;
+  padding: 0 20px 20px 0;
 }
 
 .u-section-1 .u-group-1 {
-  min-height: 462px;
+  min-height: 366px;
   width: 596px;
-  margin: -175px auto 0 -323px;
+  height: auto;
+  margin: -155px auto 0 -303px;
 }
 
 .u-section-1 .u-container-layout-4 {
-  padding: 20px 31px 20px 60px;
+  padding: 20px 31px 17px 60px;
 }
 
 .u-section-1 .u-text-1 {
@@ -63,12 +64,11 @@
 }
 
 .u-section-1 .u-text-4 {
-  margin: -200px 0 0 267px;
+  margin: -150px 0 0 267px;
 }
 
 .u-section-1 .u-text-5 {
-  width: 386px;
-  margin: 20px auto 0;
+  margin: 20px 74px 0 45px;
 }
 
 @media (max-width: 1199px) {
@@ -90,7 +90,15 @@
   }
 
   .u-section-1 .u-image-3 {
-    min-height: 251px;
+    min-height: 278px;
+  }
+
+  .u-section-1 .u-group-1 {
+    height: auto;
+  }
+
+  .u-section-1 .u-text-5 {
+    width: 386px;
   }
 }
 
@@ -145,7 +153,6 @@
   }
 
   .u-section-1 .u-container-layout-3 {
-    padding-left: 10px;
     padding-right: 10px;
   }
 
@@ -309,7 +316,7 @@
 
   .u-section-2 .u-group-1 {
     width: 418px;
-    min-height: 419px;
+    min-height: 385px;
     margin-top: -143px;
     margin-left: auto;
   }
@@ -326,13 +333,13 @@
 
   .u-section-2 .u-text-4 {
     width: auto;
-    margin-top: -206px;
+    margin-top: -156px;
     margin-left: 209px;
   }
 
   .u-section-2 .u-text-5 {
     width: auto;
-    margin-top: 13px;
+    margin-top: 31px;
     margin-right: 12px;
     margin-left: 0;
   }
@@ -534,7 +541,7 @@
 
 @media (max-width: 575px) {
   .u-section-3 .u-sheet-1 {
-    min-height: 1585px;
+    min-height: 1011px;
   }
 
   .u-section-3 .u-image-1 {
@@ -555,7 +562,7 @@
 
   .u-section-3 .u-group-1 {
     width: 279px;
-    min-height: 598px;
+    min-height: 477px;
     margin-top: -376px;
   }
 
